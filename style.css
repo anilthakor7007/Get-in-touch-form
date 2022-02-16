@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div.parent {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/img/form\ 9\ bg.jfif);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: center;
+  font-family: "Mulish", sans-serif;
+}
+div.child {
+  height: 73vh;
+  width: 55vw;
+  background-color: rgba(245, 245, 245);
+  border-radius: 10px;
+  background-image: url(/img/email-png.png);
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position: 50px 110px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+form {
+  float: right;
+  padding: 23px 40px;
+  margin-right: 20px;
+}
+h3 {
+  text-align: center;
+}
+div.name {
+  margin-top: 10px;
+}
+input {
+  border: none;
+  outline: none;
+  padding: 13px;
+  font-family: "Mulish", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-radius: 23px;
+  width: 22vw;
+  margin: 5px 0;
+  background-color: #e5e5e5;
+}
+textarea {
+  margin-top: 5px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-family: "Mulish", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-radius: 10px;
+  width: 22vw;
+  resize: none;
+  background-color: #e5e5e5;
+}
+input[placeholder],
+textarea[placeholder] {
+  padding-left: 20px;
+}
+div.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+button {
+  height: 38px;
+  width: 145px;
+  text-align: left;
+  padding-left: 30px;
+  color: whitesmoke;
+  font-family: "Mulish", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  background-image: url(/img/arrow-18-48.png);
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position: 103px 11.3px;
+  border: none;
+  outline: none;
+  background-color: #5bbb64;
+  border-radius: 23px;
+}
+button:hover {
+  background-color: #1ec22e;
+}
